@@ -68,9 +68,7 @@ public:
             m_ReverseCakeArray[i] = m_ReverseCakeArray[j];
             m_ReverseCakeArray[j] = t;
         }
-
     }
-
 
 private:
     int *m_CakeArray; // 烙饼信息数组。
